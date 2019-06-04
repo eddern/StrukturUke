@@ -4,3 +4,12 @@
   --secondary-color: #9a7dc3;
   --text-color: #17111e;
 }
+
+button,
+input[type=submit] {
+  background-color: var(--primary-color);
+  color: white;
+  border: 0;
+  padding: 1em;
+  font-size: 1.2em;
+}
