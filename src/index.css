@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+@import url('shared.css');
 
 body {
   margin: 0;
   font-family: 'Hind', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--primary-color);
 }
